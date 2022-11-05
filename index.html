@@ -4,20 +4,24 @@
 	<title>Emprende Ya</title>
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	 <meta charset="utf-8">
-	 <link rel="stylesheet" type="text/css" href="styles.css">
-	 <link rel="icon" href="icon.jpeg">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" type="text/css" href="css/styles.css">
+	 <link rel="icon" href="img/icon.jpeg">
 	 <link href="https://fonts.googleapis.com/css2?family=Aladin&familyChewy&family=Gochi+Hand&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 	 <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Fuzzy+Bubbles:wght@700&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
 	 <script src="https://kit.fontawesome.com/d6000efb6a.js" crossorigin="anonymous"></script>
  
 </head>
 <body>
+	<div class="ayuda">
+					<a href="" class="fa-sharp fa-solid fa-question icon-ayuda"></a>
+				</div>
 	<header id="cabecera">
 		<div class="contenedor">
 			<div class="contenedor-logo">
 				<a href="" class="a-logo">
-					<img class="logo" src="icon.jpeg">
+					<img class="logo" src="img/icon.jpeg">
 					<p>Emprende Ya!</p>
 				</a>
 			</div>
@@ -29,33 +33,35 @@
 			<nav class="menu">
 
 				<a href="#">Inicio</a>
-				<a href="#">Servicios</a>
-				<a href="#">Sobre nosotros</a>
+				<a href="#galeria">Red de Emprendimientos</a>
+				<a href="contacto.html">Contáctanos</a>
 				<a href="#comentarios">Comentarios</a>	
-				<a href="#" class="boton-general">Regístrate</a>
+				<a href="iniciar.html" class="boton-general">Iniciar sesión</a>
 			</nav>
 		</div>
 	</header>
 
 	<main>
+		
 		<section id="banner">
-			<img src="banner.png">
+			<img src="img/banner.png">
 			<div class="contenedor">
 				<h2>Únete a nuestro entorno colaborativo y cumple tus objetivos</h2>
 				<p>Logra emprender tu negocio o ayuda a otros a mejorar. Para un entorno colaborativo mejor</p>
-				<a href="#preguntas">Preguntas frecuentes</a>
+				<a class="a-pregunta"href="#preguntas">Preguntas frecuentes</a>
+				
 			</div>
 		</section>
 
 		<section id=sesion>
-			<h3> Inicia sesión como</h3><br>
+			<h3> Regístrate como</h3><br>
 			<div>
-				<a href="">Benefactor</a>
-				<a href="">Emprendedor</a>
+				<a href="registro.html">Benefactor</a>
+				<a href="registro.html">Emprendedor</a>
 			</div>	
 		</section >
 
-		<section id=preguntas>
+		<section id=servicios>
 			<section id="emprendedor-preg">
 				<div class="timeline-cabecera">
 					<h3>¿Cómo convertirse en un emprendedor?</h3>
@@ -68,8 +74,7 @@
 						<div class="timeline-num">1</div>
 						<div class="timeline-contenido">
 							<h4>Crea un perfil</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+							<p>Queremos conocerte, al igual que tus ustos y pasiones. Da tu primer paso escribiendo tus gustos y tu información personal para que los benefactores te contacten pronto.</p>
 						</div>
 					</div>
 
@@ -78,8 +83,7 @@
 						<div class="timeline-num">2</div>
 						<div class="timeline-contenido">
 							<h4>Sube tu emprendimiento</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+							<p> Estamos seguros que tu negocio será un exito con ayuda de toda la comunidad. Pudes subir fotos de tus productos y/o servicios.</p>
 						</div>
 					</div>
 
@@ -88,8 +92,7 @@
 						<div class="timeline-num">3</div>
 						<div class="timeline-contenido">
 							<h4>Escribe tus objetivos</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+							<p> Sube una meta para recaudar dinero de tu emprendiemto. Estamos seguros que con los pasos anteriores lograrás recaudar los fondos suficientes para llegar a tu meta.</p>
 						</div>
 
 					</div>
@@ -164,7 +167,7 @@
 		</section>
 
 		<section id=comentarios>
-				<h3>Cónoce a nuestros benefactores TOP!</h3>
+				<h3>Testimonios reales de usuarios</h3>
 				<div id="slider">
 					<input type="radio" name="slider" id="slide1" checked>
 					<input type="radio" name="slider" id="slide2">
@@ -178,10 +181,8 @@
 									<div class="slide-contenedor">
 										<div class="caja caja-img1"></div>
 										<div class="caja texto">
-											<h3>Julin Perez</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-											quis nostrud exercitation ullamco</p>
+											<h3>Julian Pérez - Benefactor</h3>
+											<p>Gracias a la iniciativa de EmprendeYa!, he podido ayudar a mucho jóvenes emprendedores. Lo que más satisfacción es ayudar a los demás, simepre estoy presente para dar un  consejo al que lo necesite. </p>
 										</div>
 									</div>
 								</div>
@@ -191,9 +192,7 @@
 										<div class="caja caja-img2"> </div>
 										<div class="caja texto">
 											<h3>Carmen Dias</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-											quis nostrud exercitation ullamco</p>
+											<p>Estoy muy agradecida con EmprendeYa!. Con está página he podido llegar a mi meta e invertirlo de manera inteligente. Gracias a todos los benefactores que invirtieron tiempo y dinero a mi negocio.</p>
 										</div>
 									</div>
 								</div>
@@ -203,10 +202,8 @@
 									<div class="slide-contenedor">
 										<div class="caja caja-img3"> </div>
 										<div class="caja texto">
-											<h3>Julian Lopez</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-											quis nostrud exercitation ullamco</p>
+											<h3>Kerls Lopez - Benefactor</h3>
+											<p>Siempre tengo mucho tiempo disponible y la mejor manera que he podido invertirla es ayudando a los más jóvenes. Todos deberías ayudarno para crear un mejor mercado en nuestro país.</p>
 										</div>
 									</div>
 								</div>
@@ -217,9 +214,7 @@
 										<div class="caja caja-img4"> </div>
 										<div class="caja texto">
 											<h3>Diana Vertez</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-											quis nostrud exercitation ullamco</p>
+											<p>He brindado muchos consejos a lo largo de toda mi carrera, siempre es bueno compartir tus conocimientos con alguien más. Gracias a EmprendeYa! pude encontrar a mucha gente que de verdad lo necesite.</p>
 										</div>
 									</div>
 								</div>								
@@ -244,16 +239,76 @@
 				</div>
 		</section>
 
-		<section id="equipo-trabajo">
+		<section id="preguntas">
+			<div class="contenedor-acordeon">
+				<h3>Preguntas frecuentes</h3>
+				<div class="acordeon">
+					
+						<input type="radio" name="acordeon" id="btn-acordeon1" class="btn-acordeon">
+						<label for="btn-acordeon1">
+						¿Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod?</label>
+						
+					
+					<div class="contenido-acordeon">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+				</div>
+
+				<div class="acordeon">
+					
+						<input type="radio" name="acordeon" id="btn-acordeon2" class="btn-acordeon">
+						<label for="btn-acordeon2">
+						¿Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod? 
+						</label>
+						
+				
+					<div class="contenido-acordeon">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+				</div>
+
+				<div class="acordeon">
+					<input type="radio" name="acordeon" id="btn-acordeon3" class="btn-acordeon">
+					<label for="btn-acordeon3">
+						¿Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod?<div class="icon-mas"></div>
+					</label>
+					<div class="contenido-acordeon">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+				</div>
+
+				<div class="acordeon">
+					<input type="radio" name="acordeon" id="btn-acordeon4" class="btn-acordeon">
+					<label for="btn-acordeon4">
+						¿Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod? <div class="icon-mas"></div>
+					</label>
+					<div class="contenido-acordeon">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+				</div>
+			</div>
 		</section>
+
 		<section id="call">
 			<h3>Únete a nuestro programa</h3>
 			<p>Emprendedores con ganas de sobresaliren su mercado objetivo y mentores dispuestos a colaborar</p>
-			<a class="boton-general" href="#">INSCRIBETE AHORA</a>
+			<a class="boton-general" href="registro.html">REGÍSTRATE AHORA</a>
 		</section>
 	</main>
 
-	<footer>
+	<footer id=SobreNosotros>
 	
 			<div class="contenedor">
 				<div>
@@ -261,7 +316,7 @@
 				</div>
 		
 				<div class="contenedor-img">
-					<img src="icon.jpeg">
+					<img src="img/icon.jpeg">
 				</div>
 				
 				<div class="sociales">

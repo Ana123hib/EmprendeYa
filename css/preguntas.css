@@ -1,0 +1,141 @@
+
+
+#preguntas p
+{
+	font-family: 'Zilla Slab', serif;
+}
+#emprendedor-preg
+{
+	background-color: #8FD7EC;
+	width: 100%;
+	padding:60px 15px;
+
+}
+.timeline-cabecera
+{
+	text-align: center;
+}
+
+.timeline-cabecera h3
+{
+	font-family: 'Anton', sans-serif;
+	font-weight: lighter;
+}
+
+.timeline-cabecera p
+{
+	font-family: 'Zilla Slab', serif;
+	margin:15px 0 30px 0px;
+}
+
+.timeline-items
+{
+	max-width: 1000px;
+	margin:auto;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.timeline-items::before
+{
+	content: '';
+	position: absolute;
+	width: 2px;
+	top: 10px;
+	height: 98%;
+	background-color: #197180;
+	left: calc(50% - 1px);
+}
+.timeline-item
+{
+	margin-bottom: 40px;
+	width: 100%;
+	position: relative;
+}
+
+.timeline-item:last-child
+{
+	margin-bottom: 0;
+}
+
+
+.timeline-item:nth-child(odd)
+{
+	padding-right: calc(50% + 30px);
+	text-align: right;
+}
+
+.timeline-item:nth-child(even)
+{
+	padding-left: calc(50% + 30px);
+}
+
+.timeline-dot
+{
+	height: 20px;
+	width: 20px;
+	background-color: #3595B0;
+	position: absolute;
+	left: calc(50% - 10px);
+	border-radius: 50%;
+	top: 10px;
+}
+.timeline-contenido
+{
+	
+	padding:30px;
+	border-radius: 5px;
+	background: rgba(130,15,120);
+}
+
+.timeline-num
+{
+	font-size: 20px;
+	font-weight: bolder;
+	color: #197180;
+	margin:6px 0 10px;
+}
+
+.timeline-contenido h4
+{
+	font-size: 20px;
+	color: #fff;
+	text-transform: capitalize;
+	font-family: 'Zilla Slab', serif;
+	font-weight: 0.5;
+
+}
+
+.timeline-contenido p
+{
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Zilla Slab', serif;
+	font-weight: 0.5;
+	line-height: 22px;
+}
+
+@media (max-width: 767px)
+{
+	.timeline-item:nth-child(odd)
+	{
+		padding-right: 0;
+		padding-left: 37px;
+		text-align: left;
+	}
+
+	.timeline-item:nth-child(even)
+	{
+		padding-left: 37px;
+	}
+
+	.timeline-items::before
+	{
+		left: 9px;
+	}
+	.timeline-dot
+	{
+		left: 0;
+	}
+}

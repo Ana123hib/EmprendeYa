@@ -1,0 +1,93 @@
+*
+{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	scroll-behavior: smooth;
+}
+ #iniciar
+ {
+ 	background:rgba(143,215,236,0.4);
+ 	padding:30px;
+ 	height: 100%;
+ }
+ #iniciar h3
+{
+	margin-top: -20px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.icon-search img
+{
+	width: 20px;
+	margin-bottom: -5px;
+}
+
+.registro
+{
+	background:rgba(143,215,236,0.4);
+	margin: auto;
+	margin-top: 70px;
+	max-width: 400px;
+	padding: 30px;
+	border-radius: 2%;
+	background:#fff;
+}
+
+.contenedor-registro
+{
+	
+	width: auto;
+	display: grid;	
+}
+.cajar
+{
+	margin:5px 20px;
+	padding: 9px;
+}
+
+label
+{
+	text-align: center;
+	font-size: 10px;
+}
+
+.boton-opcion
+{
+	margin: 10px 50px;
+	text-align: center;
+	background:#000;
+	color:#fff;
+	padding:14px 10px;
+	border-radius: 0.5em;
+	text-decoration: none;
+}
+
+.letras
+{
+	font-size: 13px;
+}
+
+.nuevo-usuario
+{
+	text-align: center;
+}
+
+
+.raya
+{
+	text-decoration: underline;
+}
+.facebook
+{
+	background:#00f;
+}
+
+.btn-enviar
+{
+	background: transparent;
+	color:#fff;
+	background:#802EEB;
+	border:0;
+}

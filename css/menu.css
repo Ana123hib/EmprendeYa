@@ -1,0 +1,135 @@
+#menu-bar
+{
+	display: none;
+}
+
+header label
+{
+	float: right;
+	font-size: 28px;
+    margin: 12px 0;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.menu .boton-general
+	{
+		display: none;
+	}
+.logo
+{
+ display: inline-block;
+ float: left;
+ width: 50px;
+ height: 50px;
+
+}
+
+.contenedor-logo
+{
+	display: inline-block;
+	width: 270px;
+}
+
+
+.a-logo p
+{
+	font-size: 35px;
+	margin-top:14px;
+	text-decoration: none;
+	font-family: 'Gochi Hand', cursive;
+	font-weight: bold;
+	color: #000;
+}
+
+.menu
+{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background: rgba(100,0,130,0.9);
+	transform: translate(-100%);
+	transition: all 0.5s;
+}
+
+.menu a
+{
+	display: block;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	height: 50px;
+	padding: 15px;
+	border-bottom: 1px solid rgba(255,255,255,0.3)
+}
+
+.menu a:hover
+{
+	background: rgba(255,255,255,0.3);
+}
+
+#menu-bar:checked~ .menu
+{
+	transform: translate(0%);
+	
+}
+
+@media (min-width:1000px)
+{
+	#bar-logo
+	{
+		display: none;
+
+	}
+	.menu
+	{
+		position: static;
+		width: auto;
+		height: auto;
+		transform: translateX(0%);
+		float: right;
+		display: flex;
+		background: transparent;
+		color: #fff;
+		transition: 0s;
+	}
+
+	.a-logo p
+	{
+		font-size: 36px;
+		margin: 8px;
+	}
+
+	.menu a{
+		color: #000;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.menu a:hover
+	{
+		color:#937;
+
+	}
+	.menu .boton-general
+	{
+		display: block;
+	}
+
+	.menu .boton-general
+	{
+		padding: 15px;
+	}
+
+	header a
+	{
+		margin-top: 5px;
+	}
+
+	#cabecera
+	{
+		height: 60px;
+	}
+}

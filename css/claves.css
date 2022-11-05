@@ -1,0 +1,28 @@
+#claves
+{
+	background: #D6A9E6;
+	padding: 60px;
+}
+#claves li
+{
+	font-family: 'Zilla Slab', serif;
+	margin: auto;
+	flex-wrap: wrap;
+	padding: 15px;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+#claves ul
+{
+	margin: auto;
+	display: inline-block;
+}
+
+#claves div
+{
+	margin: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
